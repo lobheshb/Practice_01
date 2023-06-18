@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-06-17T20:25:58 IST" name="Default suite" finished-at="2023-06-17T20:26:25 IST" duration-ms="26712">
+    <groups>
+    </groups>
+    <test started-at="2023-06-17T20:25:58 IST" name="Default test" finished-at="2023-06-17T20:26:25 IST" duration-ms="26712">
+      <class name="TestClass.Test1">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:TestClass.Test1@470734c3]" started-at="2023-06-17T20:25:58 IST" name="beforeClass" finished-at="2023-06-17T20:26:17 IST" duration-ms="18965" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:TestClass.Test1@470734c3]" started-at="2023-06-17T20:26:17 IST" name="beforeMethod" finished-at="2023-06-17T20:26:17 IST" duration-ms="50" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="loginPage()[pri:1, instance:TestClass.Test1@470734c3]" started-at="2023-06-17T20:26:17 IST" name="loginPage" finished-at="2023-06-17T20:26:17 IST" duration-ms="230" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPage -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:TestClass.Test1@470734c3]" started-at="2023-06-17T20:26:17 IST" name="afterMethod" finished-at="2023-06-17T20:26:17 IST" duration-ms="18" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginPage status=SUCCESS method=Test1.loginPage()[pri:1, instance:TestClass.Test1@470734c3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:TestClass.Test1@470734c3]" started-at="2023-06-17T20:26:17 IST" name="beforeMethod" finished-at="2023-06-17T20:26:17 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="mome()[pri:2, instance:TestClass.Test1@470734c3]" started-at="2023-06-17T20:26:17 IST" name="mome" finished-at="2023-06-17T20:26:18 IST" duration-ms="471" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mome -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:TestClass.Test1@470734c3]" started-at="2023-06-17T20:26:18 IST" name="afterMethod" finished-at="2023-06-17T20:26:18 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=mome status=SUCCESS method=Test1.mome()[pri:2, instance:TestClass.Test1@470734c3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:TestClass.Test1@470734c3]" started-at="2023-06-17T20:26:18 IST" name="beforeMethod" finished-at="2023-06-17T20:26:18 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="selectMobile()[pri:3, instance:TestClass.Test1@470734c3]" started-at="2023-06-17T20:26:18 IST" name="selectMobile" finished-at="2023-06-17T20:26:22 IST" duration-ms="3964" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectMobile -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:TestClass.Test1@470734c3]" started-at="2023-06-17T20:26:22 IST" name="afterMethod" finished-at="2023-06-17T20:26:22 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=selectMobile status=SUCCESS method=Test1.selectMobile()[pri:3, instance:TestClass.Test1@470734c3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:TestClass.Test1@470734c3]" started-at="2023-06-17T20:26:22 IST" name="beforeMethod" finished-at="2023-06-17T20:26:22 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="addtocart()[pri:4, instance:TestClass.Test1@470734c3]" started-at="2023-06-17T20:26:22 IST" name="addtocart" finished-at="2023-06-17T20:26:22 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addtocart -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:TestClass.Test1@470734c3]" started-at="2023-06-17T20:26:22 IST" name="afterMethod" finished-at="2023-06-17T20:26:22 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=addtocart status=SUCCESS method=Test1.addtocart()[pri:4, instance:TestClass.Test1@470734c3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:TestClass.Test1@470734c3]" started-at="2023-06-17T20:26:22 IST" name="afterClass" finished-at="2023-06-17T20:26:25 IST" duration-ms="2879" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- TestClass.Test1 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
