@@ -5,7 +5,9 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-public class HomePage 
+import UtilClass.UtilClass;
+
+public class HomePage extends UtilClass
 {
 	@FindBy(xpath="//input[@class='_3704LK']")
 	private WebElement SearchFeild ;
@@ -33,10 +35,7 @@ public class HomePage
 		SearchBtn.click();
 	}
 
-	public String getScreenShot(WebDriver driver, String name) {
-		// TODO Auto-generated method stub
-		return null;
-	}
+	
 
 	
 

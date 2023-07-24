@@ -94,13 +94,17 @@ public class Test1 extends UtilClass {
   {
 	  if(result.getStatus()==result.SUCCESS)
 	  {
+		//  String path = hp.getScreenShot(driver, result.getName());
 		  test.log(Status.PASS, "Test Is Passed" +result.getName());
+		  hp.getScreenShot(driver, result.getName());
+	//	  MediaEntityBuilder.createScreenCaptureFromPath(path).build();
 	  }
 	  else 
 	 {
-		 String path = hp.getScreenShot(driver, result.getName());
+		//  Object path = hp.getScreenShot(driver, result.getName());
 		  test.log(Status.FAIL, "Test Is Failed"+ result.getName());
-		  MediaEntityBuilder.createScreenCaptureFromPath(path).build();
+		  hp.getScreenShot(driver, result.getName());
+	//	  MediaEntityBuilder.createScreenCaptureFromPath(path).build();
 	  }
   }
 

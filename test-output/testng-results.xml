@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+<testng-results ignored="0" total="4" passed="3" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-06-17T20:25:58 IST" name="Default suite" finished-at="2023-06-17T20:26:25 IST" duration-ms="26712">
+  <suite started-at="2023-07-01T15:26:38 IST" name="Default suite" finished-at="2023-07-01T15:27:05 IST" duration-ms="27258">
     <groups>
     </groups>
-    <test started-at="2023-06-17T20:25:58 IST" name="Default test" finished-at="2023-06-17T20:26:25 IST" duration-ms="26712">
+    <test started-at="2023-07-01T15:26:38 IST" name="Default test" finished-at="2023-07-01T15:27:05 IST" duration-ms="27258">
       <class name="TestClass.Test1">
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:TestClass.Test1@470734c3]" started-at="2023-06-17T20:25:58 IST" name="beforeClass" finished-at="2023-06-17T20:26:17 IST" duration-ms="18965" status="PASS">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:TestClass.Test1@470734c3]" started-at="2023-07-01T15:26:38 IST" name="beforeClass" finished-at="2023-07-01T15:26:50 IST" duration-ms="11655" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:TestClass.Test1@470734c3]" started-at="2023-06-17T20:26:17 IST" name="beforeMethod" finished-at="2023-06-17T20:26:17 IST" duration-ms="50" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:TestClass.Test1@470734c3]" started-at="2023-07-01T15:26:50 IST" name="beforeMethod" finished-at="2023-07-01T15:26:50 IST" duration-ms="115" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="loginPage()[pri:1, instance:TestClass.Test1@470734c3]" started-at="2023-06-17T20:26:17 IST" name="loginPage" finished-at="2023-06-17T20:26:17 IST" duration-ms="230" status="PASS">
+        <test-method signature="loginPage()[pri:1, instance:TestClass.Test1@470734c3]" started-at="2023-07-01T15:26:50 IST" name="loginPage" finished-at="2023-07-01T15:26:50 IST" duration-ms="228" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginPage -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:TestClass.Test1@470734c3]" started-at="2023-06-17T20:26:17 IST" name="afterMethod" finished-at="2023-06-17T20:26:17 IST" duration-ms="18" status="PASS">
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:TestClass.Test1@470734c3]" started-at="2023-07-01T15:26:50 IST" name="afterMethod" finished-at="2023-07-01T15:26:51 IST" duration-ms="522" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -30,15 +30,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:TestClass.Test1@470734c3]" started-at="2023-06-17T20:26:17 IST" name="beforeMethod" finished-at="2023-06-17T20:26:17 IST" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method signature="mome()[pri:2, instance:TestClass.Test1@470734c3]" started-at="2023-06-17T20:26:17 IST" name="mome" finished-at="2023-06-17T20:26:18 IST" duration-ms="471" status="PASS">
+        <test-method signature="mome()[pri:2, instance:TestClass.Test1@470734c3]" started-at="2023-07-01T15:26:51 IST" name="mome" finished-at="2023-07-01T15:26:51 IST" duration-ms="553" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- mome -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:TestClass.Test1@470734c3]" started-at="2023-06-17T20:26:18 IST" name="afterMethod" finished-at="2023-06-17T20:26:18 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:TestClass.Test1@470734c3]" started-at="2023-07-01T15:26:51 IST" name="beforeMethod" finished-at="2023-07-01T15:26:51 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:TestClass.Test1@470734c3]" started-at="2023-07-01T15:26:51 IST" name="afterMethod" finished-at="2023-07-01T15:26:52 IST" duration-ms="536" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -49,34 +49,104 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:TestClass.Test1@470734c3]" started-at="2023-06-17T20:26:18 IST" name="beforeMethod" finished-at="2023-06-17T20:26:18 IST" duration-ms="5" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:TestClass.Test1@470734c3]" started-at="2023-07-01T15:26:52 IST" name="beforeMethod" finished-at="2023-07-01T15:26:52 IST" duration-ms="4" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="selectMobile()[pri:3, instance:TestClass.Test1@470734c3]" started-at="2023-06-17T20:26:18 IST" name="selectMobile" finished-at="2023-06-17T20:26:22 IST" duration-ms="3964" status="PASS">
+        <test-method signature="selectMobile()[pri:3, instance:TestClass.Test1@470734c3]" started-at="2023-07-01T15:26:52 IST" name="selectMobile" finished-at="2023-07-01T15:27:02 IST" duration-ms="10100" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//div[text()='REDMI A1+ (Light Green, 32 GB)']"}
+  (Session info: chrome=114.0.5735.199)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.8.3', revision: 'e5e76298c3'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [011e2881407892e56c1a5dabb90fe966, findElement {using=xpath, value=//div[text()='REDMI A1+ (Light Green, 32 GB)']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\admin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:59283}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59283/devtoo..., se:cdpVersion: 114.0.5735.199, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 011e2881407892e56c1a5dabb90fe966]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[text()='REDMI A1+ (Light Green, 32 GB)']"}
+  (Session info: chrome=114.0.5735.199)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.8.3', revision: 'e5e76298c3'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [011e2881407892e56c1a5dabb90fe966, findElement {using=xpath, value=//div[text()='REDMI A1+ (Light Green, 32 GB)']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\admin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:59283}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59283/devtoo..., se:cdpVersion: 114.0.5735.199, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 011e2881407892e56c1a5dabb90fe966
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:193)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+at jdk.proxy2/jdk.proxy2.$Proxy18.click(Unknown Source)
+at POM.MobilePage.SelectMobile(MobilePage.java:24)
+at TestClass.Test1.selectMobile(Test1.java:80)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:806)
+at org.testng.TestRunner.run(TestRunner.java:601)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- selectMobile -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:TestClass.Test1@470734c3]" started-at="2023-06-17T20:26:22 IST" name="afterMethod" finished-at="2023-06-17T20:26:22 IST" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:TestClass.Test1@470734c3]" started-at="2023-07-01T15:27:02 IST" name="afterMethod" finished-at="2023-07-01T15:27:02 IST" duration-ms="304" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=selectMobile status=SUCCESS method=Test1.selectMobile()[pri:3, instance:TestClass.Test1@470734c3] output={null}]]]>
+                <![CDATA[[TestResult name=selectMobile status=FAILURE method=Test1.selectMobile()[pri:3, instance:TestClass.Test1@470734c3] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:TestClass.Test1@470734c3]" started-at="2023-06-17T20:26:22 IST" name="beforeMethod" finished-at="2023-06-17T20:26:22 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:TestClass.Test1@470734c3]" started-at="2023-07-01T15:27:02 IST" name="beforeMethod" finished-at="2023-07-01T15:27:02 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="addtocart()[pri:4, instance:TestClass.Test1@470734c3]" started-at="2023-06-17T20:26:22 IST" name="addtocart" finished-at="2023-06-17T20:26:22 IST" duration-ms="4" status="PASS">
+        <test-method signature="addtocart()[pri:4, instance:TestClass.Test1@470734c3]" started-at="2023-07-01T15:27:02 IST" name="addtocart" finished-at="2023-07-01T15:27:02 IST" duration-ms="7" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addtocart -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:TestClass.Test1@470734c3]" started-at="2023-06-17T20:26:22 IST" name="afterMethod" finished-at="2023-06-17T20:26:22 IST" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:TestClass.Test1@470734c3]" started-at="2023-07-01T15:27:02 IST" name="afterMethod" finished-at="2023-07-01T15:27:03 IST" duration-ms="251" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -87,7 +157,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:TestClass.Test1@470734c3]" started-at="2023-06-17T20:26:22 IST" name="afterClass" finished-at="2023-06-17T20:26:25 IST" duration-ms="2879" status="PASS">
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:TestClass.Test1@470734c3]" started-at="2023-07-01T15:27:03 IST" name="afterClass" finished-at="2023-07-01T15:27:05 IST" duration-ms="2834" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->

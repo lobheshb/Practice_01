@@ -7,7 +7,6 @@
         <methods>
           <include name="beforeClass"/>
           <include name="selectMobile"/>
-          <include name="addtocart"/>
           <include name="beforeMethod"/>
           <include name="afterClass"/>
           <include name="afterMethod"/>
